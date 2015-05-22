@@ -1,0 +1,19 @@
+{
+  "name": "koa-hello-world",
+  "version": "0.0.0",
+  "description": "Koa 'Hello World' middleware",
+  "repository": "tunnckoCore/koa-hello-world",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "koa": "^0.20.0",
+    "supertest": "^1.0.1"
+  },
+  "keywords": []
+}
