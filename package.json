@@ -1,7 +1,7 @@
 {
   "name": "koa-hello-world",
   "version": "0.0.0",
-  "description": "Koa 'Hello World' middleware",
+  "description": "Koa 'Hello World' middleware, useful for testing",
   "repository": "tunnckoCore/koa-hello-world",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
   "main": "index.js",

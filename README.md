@@ -1,6 +1,6 @@
 # koa-hello-world [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url]
 
-> Koa 'Hello World' middleware
+> Koa 'Hello World' middleware, useful for testing
 
 [![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url]
 
