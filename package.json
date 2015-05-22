@@ -15,5 +15,14 @@
     "koa": "^0.20.0",
     "supertest": "^1.0.1"
   },
-  "keywords": []
+  "keywords": [
+    "api",
+    "app",
+    "hello",
+    "helloworld",
+    "koa",
+    "middleware",
+    "test",
+    "world"
+  ]
 }
