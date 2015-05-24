@@ -8,7 +8,8 @@
 'use strict'
 
 module.exports = function koaHelloWorld () {
-  return function * () {
+  return function * (next) {
     this.body = 'Hello World'
+    yield * next
   }
 }
