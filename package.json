@@ -1,6 +1,6 @@
 {
   "name": "koa-hello-world",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Koa 'Hello World' middleware, useful for testing",
   "repository": "tunnckoCore/koa-hello-world",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
