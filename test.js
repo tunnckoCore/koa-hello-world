@@ -15,13 +15,37 @@ var request = require('supertest')
 var helloWorld = require('./index')
 
 var app = koa()
-app.use(helloWorld())
 
 test('koa-hello-world:', function () {
   test('should say "Hello World"', function (done) {
+    app.use(helloWorld())
+
     request(app.callback())
       .get('/')
       .expect(200, 'Hello World')
       .end(done)
+  })
+  test('should yield next middleware', function (done) {
+    var ok = false
+
+    app
+      .use(function * (next) {
+        this.helloworld = true
+        yield * next
+      })
+      .use(helloWorld())
+      .use(function * (next) {
+        test.equal(this.helloworld, true)
+        ok = true
+      })
+
+    request(app.callback())
+      .get('/')
+      .expect(200, 'Hello World')
+      .end(function (err) {
+        test.ifError(err)
+        test.equal(ok, true)
+        done()
+      })
   })
 })
