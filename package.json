@@ -12,7 +12,7 @@
   "dependencies": {},
   "devDependencies": {
     "assertit": "^0.1.0",
-    "koa": "^0.20.0",
+    "koa": "^0.21.0",
     "supertest": "^1.0.1"
   },
   "keywords": [
